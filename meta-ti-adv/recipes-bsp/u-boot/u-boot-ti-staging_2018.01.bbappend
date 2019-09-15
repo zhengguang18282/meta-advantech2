@@ -4,7 +4,7 @@ UBOOT_GIT_URI = "git://github.com/ADVANTECH-Corp/uboot-ti.git"
 UBOOT_GIT_PROTOCOL = "git"
 SRC_URI = "${UBOOT_GIT_URI};protocol=${UBOOT_GIT_PROTOCOL};branch=${BRANCH}"
 
-SRCREV = "${AUTOREV}"
+SRCREV = "bef99aed06a71d3df1153612ff92ea39051c925a"
 
 SRC_URI_remove = " \
     file://0001-HACK-firmware-ti_sci-remove-EXCLUSIVE-flag.patch \
